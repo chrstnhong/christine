@@ -37,6 +37,9 @@ p {
 	line-height: 1.8;
 }
 
+.container{
+	width:100%;
+	overflow-x: hidden;}
 
 .underline {
 	border-bottom: .36rem solid #BDC8DB;
@@ -149,8 +152,6 @@ p {
 	  	-webkit-user-drag: none;
 	  	-webkit-user-select: none;
 	  	-ms-user-select: none;
-		overflow-x: hidden;
-	  	overflow-y: hidden;
 		}
 
 	.shapes {
@@ -159,8 +160,6 @@ p {
 		right:-16%;
 		top:40vh;
 	  	width: 580px;
-	  	overflow-x: hidden;
-	  	overflow-y: hidden;
 
 
 
