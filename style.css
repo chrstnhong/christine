@@ -38,7 +38,7 @@ p {
 }
 
 .container{
-	width:100%;
+	width:100vh;
 	overflow-x: hidden;}
 
 .underline {
@@ -115,6 +115,7 @@ p {
 		position: relative;
 		top:32vh;
 		left:0;
+		right:0;
 		margin: auto;
 		width: 88%;
 
@@ -125,6 +126,7 @@ p {
 		top: -40vh;
 		margin:auto;
 		left:0;
+		right: 0;
 		/*display: block;*/
 
 	  	/*max-width: calc(100% - 40px);*/
@@ -152,6 +154,7 @@ p {
 	  	-webkit-user-drag: none;
 	  	-webkit-user-select: none;
 	  	-ms-user-select: none;
+	  	overflow-x: hidden;
 		}
 
 	.shapes {
@@ -160,6 +163,7 @@ p {
 		right:-16%;
 		top:40vh;
 	  	width: 580px;
+	  	overflow-x: hidden;
 
 
 
