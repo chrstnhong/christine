@@ -149,6 +149,8 @@ p {
 	  	-webkit-user-drag: none;
 	  	-webkit-user-select: none;
 	  	-ms-user-select: none;
+		overflow-x: hidden;
+	  	overflow-y: hidden;
 		}
 
 	.shapes {
@@ -157,6 +159,10 @@ p {
 		right:-16%;
 		top:40vh;
 	  	width: 580px;
+	  	overflow-x: hidden;
+	  	overflow-y: hidden;
+
+
 
 		}
 
