@@ -1,0 +1,165 @@
+
+/*USE FLEXBOX*/
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
+
+
+html {
+    font-size: 62.5%; 
+}
+
+
+body {
+	overflow-x: hidden;
+  	background-color: white;
+  	font-family: 'Karla', sans-serif;
+
+    line-height: 1.8;
+ 	color: #314462;
+
+}
+
+a { color: #BDC8DB; text-decoration: none;}
+a:hover { color: black; text-decoration:none;}
+
+
+h1, h2, h3, h4, h5, h6 {}
+
+h1 { font-size:3.2rem; line-height: 1; font-weight: 700; letter-spacing: .024rem;}
+h2 { font-size:2.4rem; }
+h3 { font-size:1.6rem; text-transform: uppercase;}
+
+
+p {
+	font-size:1.8rem;
+	font-weight: normal;
+	letter-spacing: .028rem;
+	line-height: 1.8;
+}
+
+
+.underline {
+	border-bottom: .36rem solid #BDC8DB;
+  	display: inline-block;
+}
+
+
+.heythere {
+	position: absolute;
+	top:120px;
+	left:8%;
+	width:72%;
+	max-width: 560px;
+	margin-right: 10%;
+}
+
+.wave {
+	z-index: -1;
+	position: absolute;
+	right:8%;
+	bottom:12%;
+	/*display: block;*/
+
+  	width: 256px;
+  	/*max-width: calc(100% - 40px);*/
+  	/*height: 450px;*/
+  	/*max-height: calc(100% - 20px);*/
+
+  	user-drag: none; 
+  	user-select: none;
+  	-moz-user-select: none;
+  	-webkit-user-drag: none;
+  	-webkit-user-select: none;
+  	-ms-user-select: none;
+}
+
+.rect {
+	z-index: -3;
+	position: absolute;
+	left:4%;
+	top:8%;
+  	width: 800px;
+
+  	user-drag: none; 
+  	user-select: none;
+  	-moz-user-select: none;
+  	-webkit-user-drag: none;
+  	-webkit-user-select: none;
+  	-ms-user-select: none;
+}
+
+.shapes {
+	z-index: -2;
+	position: absolute;
+	right:8%;
+	top:12%;
+  	width: 580px;
+
+  	user-drag: none; 
+  	user-select: none;
+  	-moz-user-select: none;
+  	-webkit-user-drag: none;
+  	-webkit-user-select: none;
+  	-ms-user-select: none;
+}
+
+
+
+
+@media (max-width: 500px) {
+
+	.heythere {
+		position: relative;
+		top:32vh;
+		left:0;
+		margin: auto;
+		width: 88%;
+
+	}
+
+	.wave {
+		position: absolute;
+		top: -40vh;
+		margin:auto;
+		left:0;
+		/*display: block;*/
+
+	  	/*max-width: calc(100% - 40px);*/
+	  	height: 40%;
+	  	/*max-height: calc(100% - 20px);*/
+
+	  	user-drag: none; 
+	  	user-select: none;
+	  	-moz-user-select: none;
+	  	-webkit-user-drag: none;
+	  	-webkit-user-select: none;
+	  	-ms-user-select: none;
+		}
+
+	.rect {
+		z-index: -3;
+		position: absolute;
+		left:-40vh;
+		top:28vh;
+	  	width: 800px;
+
+	  	user-drag: none; 
+	  	user-select: none;
+	  	-moz-user-select: none;
+	  	-webkit-user-drag: none;
+	  	-webkit-user-select: none;
+	  	-ms-user-select: none;
+		}
+
+	.shapes {
+		z-index: -2;
+		position: absolute;
+		right:-16%;
+		top:40vh;
+	  	width: 580px;
+
+		}
+
+
+
+}	
