@@ -14,7 +14,7 @@ html, body {
 
 }
 
-a { color: #BDC8DB; text-decoration: none;}
+a { color: #A7B2C7; text-decoration: none;}
 a:hover { color: black; text-decoration:none;}
 
 
@@ -98,10 +98,15 @@ p {
   	-ms-user-select: none;
 }
 
+/*
+#wrapper {
+	max-width:100%;
+	margin: 0 auto;
+	overflow-x: hidden;
+}*/
 
+@media (max-width: 640px) {
 
-
-@media (max-width: 500px) {
 
 	.heythere {
 		position: absolute;
@@ -119,43 +124,23 @@ p {
 		margin:auto;
 		left:0;
 		right: 0;
-		/*display: block;*/
-
-	  	/*max-width: calc(100% - 40px);*/
 	  	height: 40%;
-	  	/*max-height: calc(100% - 20px);*/
-
-	  	user-drag: none; 
-	  	user-select: none;
-	  	-moz-user-select: none;
-	  	-webkit-user-drag: none;
-	  	-webkit-user-select: none;
-	  	-ms-user-select: none;
 		}
+
 
 	.rect {
+		position: fixed;
 		z-index: -3;
-		position: absolute;
 		left: -40vw;
 		top: 28vh;
-	  	width: 800px;
-
-	  	user-drag: none; 
-	  	user-select: none;
-	  	-moz-user-select: none;
-	  	-webkit-user-drag: none;
-	  	-webkit-user-select: none;
-	  	-ms-user-select: none;
-	  	overflow-x: hidden;
 		}
 
+
 	.shapes {
+		position: fixed;
 		z-index: -2;
-		position: absolute;
 		right: -16%;
 		top: 40vh;
-	  	width: 580px;
-	  	overflow-x: hidden;
 		}
 
 
