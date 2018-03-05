@@ -314,6 +314,9 @@ Responsive
 	width:960px;
 	}
 
+	.bg-blue-bottom{
+		width:280%;
+	}
 
 	.container {
 	max-width: 92%
@@ -322,9 +325,13 @@ Responsive
 		margin-right: auto;
 		margin-left:auto;}
 
+	.mini-hero{
+		padding-top: 8%;
+	}
+
 
 	.intro{
-		margin-top: -44px;
+		margin-top: -56px;
 		padding-bottom: 4%;
 		padding-left: 8%;
 		padding-right: 8%;
@@ -334,6 +341,10 @@ Responsive
 		padding-bottom:4%;
 		padding-left: 8%;
 		padding-right: 8%;
+	}
+	.box-full{
+		margin-top: 4%;
+		margin-bottom: 24%;
 	}
 
 	.box-half{
