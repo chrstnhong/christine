@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
 
+
 html, body {
     font-size: 100%;
   	font-family: 'Karla', sans-serif;
@@ -11,9 +12,9 @@ html, body {
     height:100%;
 	}
 
-::-moz-selection { background: #DBDBDB; }
+::-moz-selection { background: #efefef; }
 
-::selection { background: #DBDBDB; }
+::selection { background: #efefef; }
 
 a {	color: #0055FF; text-decoration: none; border-bottom: .24rem solid #0055FF; display: inline-block;	}
 
@@ -93,7 +94,7 @@ Background Elements
 .bg-pink {
 	position: absolute;
 	right:-200px;
-	top:600px;
+	top:620px;
   	width: 600px;
 
   	user-drag: none; 
@@ -124,21 +125,6 @@ Background Elements
 	}
 
 
-/*.footer {
-	padding-top: 48px;
-	margin-bottom: auto; 
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  width:100%;
-  overflow-x: none;
-  height:400px;
-  background-image: url("bg-blue-bottom.svg");
-
- }*/
-
-
 
 /*
 
@@ -162,6 +148,23 @@ a:hover.navlink{color:white; border-bottom:.24rem solid white;}
 
 
 
+.footer {
+	color:white;
+	text-align: center;
+	padding-top: 24px;
+	padding-bottom: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	width:100%;
+
+ }
+
+
+a.footerlink{color:white; border-bottom:.24rem solid rgba(255,255,255,0);}
+
+a:hover.footerlink{color:white; border-bottom:.24rem solid white;}
+
+.space {padding: 48px;}  /*Get rid of this when nav is reintroduced*/
 
 
 /*
@@ -175,7 +178,7 @@ Body
 	font-size:1.6rem;
 	color:white;
 	font-weight: 700;
-	padding-top: 16px;
+	padding-top: 24px;
 	padding-bottom: 16px;
 	width:100%;
 }
@@ -201,7 +204,7 @@ Body
 	background-color: white;
 	box-shadow: 0px 8px rgba(27, 67, 133, 0.12);
 	border-radius:12px;
-	margin-bottom: 32px;
+	margin-bottom: 56px;
 	width:100%;
 }
 
@@ -296,6 +299,7 @@ Responsive
 
 @media (max-width: 820px) {
 
+	.space {padding: 40px;}
 
 	.bg-pink {
 	position: absolute;
