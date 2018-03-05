@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1440px" height="462px" viewBox="0 0 1440 462" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1440px" height="550px" viewBox="0 0 1440 550" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle 6 Copy</title>
+    <title>footerblue</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="latest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M0,142 C97.9993188,128.291663 219.500635,257.072077 378,275 C640.233296,305.291663 702.480391,28.5978875 931,4 C1110.46777,-14.7083368 1192.03423,53.22581 1361,88 C1382.72319,92.6910759 1408.89198,92.4849525 1440,88 C1439.99333,97.3333333 1439.99333,222 1440,462 L0,462 C0,292.763888 0,186.097221 0,142 Z" id="Rectangle-6-Copy" fill="#0055FF"></path>
+        <path d="M0,190 C97.9993188,176.291663 219.500635,305.072077 378,323 C640.233296,353.291663 702.480391,28.5978875 931,4 C1110.46777,-14.7083368 1192.03423,53.22581 1361,88 C1382.72319,92.6910759 1408.89198,92.4849525 1440,88 C1439.99333,97.3333333 1439.99333,251.333333 1440,550 L0,550 C0,354.097221 0,234.097221 0,190 Z" id="footerblue" fill="#0055FF"></path>
     </g>
 </svg>
