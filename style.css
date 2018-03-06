@@ -319,7 +319,6 @@ Responsive
 	}
 
 	.container {
-	max-width: 92%
 	justify-content:center;
 		max-width: 92%;
 		margin-right: auto;
@@ -329,10 +328,13 @@ Responsive
 		padding-top: 8%;
 	}
 
+	.section-heading{
+		padding-top: 8%;
+	}
 
 	.intro{
 		margin-top: -56px;
-		padding-bottom: 4%;
+		padding-bottom: 6%;
 		padding-left: 8%;
 		padding-right: 8%;
 	}
@@ -341,10 +343,6 @@ Responsive
 		padding-bottom:4%;
 		padding-left: 8%;
 		padding-right: 8%;
-	}
-	.box-full{
-		margin-top: 4%;
-		margin-bottom: 24%;
 	}
 
 	.box-half{
