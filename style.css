@@ -18,7 +18,18 @@ html, body {
 
 a {	color: #0055FF; text-decoration: none; border-bottom: .24rem solid #0055FF; display: inline-block;	}
 
-a:hover { color: #FFD100; text-decoration: none; border-bottom: .24rem solid #FFD100;	}
+/*a:before  { color: #FFD100; text-decoration: none; border-bottom: .24rem solid #FFD100; }
+*/a:hover { color: #FFD100; text-decoration: none; border-bottom: .24rem solid #FFD100; }
+
+a:hover:before {
+  opacity: 1.0;
+}
+
+a, a:before {
+  -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
 
 
 h1 { font-size:2.4rem; line-height: 1; font-weight: 700; letter-spacing: .024rem;}
