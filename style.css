@@ -33,7 +33,7 @@ a, a:before {
 
 
 h1 { font-size:2.4rem; line-height: 1; font-weight: 700; letter-spacing: .024rem;}
-h2 { font-size:1.28rem; line-height: .8; font-weight: 400; letter-spacing: .020rem;}
+h2 { font-size:1.28rem; line-height: .8; font-weight: 400; letter-spacing: .036rem;}
 h3 { font-size: 1.6rem; line-height: .4; font-weight: 400; letter-spacing: .056rem; opacity: .4; text-transform: uppercase; }
 
 
@@ -144,14 +144,13 @@ Navigational
 */
 
 
-.nav{	margin-left: auto; margin-right:auto; padding: 12px; text-align: center; padding-top: 4px;}
+.nav{margin-left: auto; margin-right:auto; padding: 12px; text-align: center; padding-top: 4px; fill:white;}
 
-ul {
-	width: 240px; text-align: center; display: flex; margin-left: auto; margin-right: auto; justify-content: space-between}
+ul {width: 240px; text-align: center; display: flex; margin-left: auto; margin-right: auto; justify-content: space-around;}
 
-li {display: inline; margin-right: 36px;}
+li {display: inline;}
 
-li:first-child {margin-left:36px;}
+.sociallink{width: 24px; }
 
 a.navlink{color:white; border-bottom:.24rem solid rgba(255,255,255,0);}
 
@@ -176,6 +175,8 @@ a.footerlink{color:white; border-bottom:.24rem solid rgba(255,255,255,0);}
 a:hover.footerlink{color:white; border-bottom:.24rem solid white;}
 
 .space {padding: 48px;}  /*Get rid of this when nav is reintroduced*/
+
+
 
 
 /*
@@ -218,6 +219,7 @@ Body
 	margin-bottom: 56px;
 	width:100%;
 }
+
 
 .box-half{
 	text-align:justify-all;
