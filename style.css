@@ -236,14 +236,18 @@ Body
 
 
 .section-heading{
-	font-size:2rem;
+/*	font-size:2rem;
+*/	
+	font-size:100%;
+	text-transform: uppercase;
+	letter-spacing: .08em;
 	color:white;
 	font-weight: 700;
 	padding-top: 24px;
 	padding-bottom: 16px;
 	width:100%;
-	letter-spacing: 0em;
-}
+/*	letter-spacing: 0em;
+*/}
 
 
 .container {
