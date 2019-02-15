@@ -33,7 +33,7 @@ a, a:before {
 
 
 h1 { font-size:2.4rem; line-height: 1; font-weight: 700; letter-spacing: .024em;}
-h2 { font-size:1.6rem; line-height: .8; font-weight: 400; /*letter-spacing: .036em;*/}
+h2 { font-size:1.6rem; line-height: 1.2; margin-bottom: 0.24em; font-weight: 400; /*letter-spacing: .036em;*/}
 h3 { font-size: .8rem; line-height: .4; font-weight: 400; letter-spacing: .056rem; opacity: .4; text-transform: uppercase; }
 
 
@@ -58,12 +58,11 @@ Background Elements
 .bg-blue-bottom {
 	position: absolute;
 	width:160%;
-	overflow-x: none;
-	left: 0;
-	right: 0;
+	left: -2px;
+	/*right: 0px;*/
 	bottom:0;
 	align-content: flex-end;
-
+	overflow-x: none;
 
   	user-drag: none; 
   	user-select: none;
@@ -193,9 +192,9 @@ Navigational
 */
 
 
-.nav{margin-left: auto; margin-right:auto; padding: 12px; text-align: center; padding-top: 4px; fill:white;}
+.nav{margin-left: auto; margin-right:auto; padding: 12px; text-align: center; padding-top: 4px; fill:white; justify-content: space-around;}
 
-ul {width: 240px; text-align: center; display: flex; margin-left: auto; margin-right: auto; justify-content: space-around;}
+ul {width: 400px; /*text-align: center; */display: flex; margin-left: auto; margin-right: auto; justify-content: space-around;}
 
 li {display: inline;}
 
@@ -284,6 +283,9 @@ Body
 	margin-bottom: 40px;
 }
 
+.boxpadding{padding-top: 48px;}
+
+
 .mini-hero{
 	display: block;
 	padding-top: 48px;
@@ -318,6 +320,22 @@ Body
 
 }
 
+
+
+.subproject{
+	font-size:1.6rem;
+	line-height: 1.2;
+	font-weight: 400;
+	padding-top: 1.24em;
+	margin-bottom: 0.24em;
+	/*padding-bottom: .64em;*/
+	width: auto;
+	}
+
+/*#subproject a:link {border:0px;}
+#subproject a:visited {}
+#subproject a:hover {}
+#subproject a:active {}*/
 
 
 .contact{
@@ -404,7 +422,7 @@ Responsive
 	}
 
 
-	.bg-blue-bottom{
+.bg-blue-bottom{
 		width:280%;
 	}
 
